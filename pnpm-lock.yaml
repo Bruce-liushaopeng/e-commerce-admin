@@ -98,6 +98,9 @@ dependencies:
   react-hot-toast:
     specifier: ^2.4.1
     version: registry.npmmirror.com/react-hot-toast@2.4.1(csstype@3.1.2)(react-dom@18.2.0)(react@18.2.0)
+  stripe:
+    specifier: ^13.4.0
+    version: registry.npmmirror.com/stripe@13.4.0
   tailwind-merge:
     specifier: ^1.14.0
     version: registry.npmmirror.com/tailwind-merge@1.14.0
@@ -4303,6 +4306,15 @@ packages:
     engines: {node: '>=6.0.0'}
     dev: false
 
+  registry.npmmirror.com/qs@6.11.2:
+    resolution: {integrity: sha512-tDNIz22aBzCDxLtVH++VnTfzxlfeK5CbqohpSqpJgj1Wg/cQbStNAz3NuqCs5vV+pjBsK4x4pN9HlVh7rcYRiA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/qs/-/qs-6.11.2.tgz}
+    name: qs
+    version: 6.11.2
+    engines: {node: '>=0.6'}
+    dependencies:
+      side-channel: registry.npmmirror.com/side-channel@1.0.4
+    dev: false
+
   registry.npmmirror.com/queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/queue-microtask/-/queue-microtask-1.2.3.tgz}
     name: queue-microtask
@@ -4740,6 +4752,16 @@ packages:
     name: strip-json-comments
     version: 3.1.1
     engines: {node: '>=8'}
+    dev: false
+
+  registry.npmmirror.com/stripe@13.4.0:
+    resolution: {integrity: sha512-UxvRzu46AJALIueMH3/jn++qJlOoM5s+uoHXagr36xTFOj7Knrh28WFiI73dMDkngBElK68cG3WI+LgRulHw6g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/stripe/-/stripe-13.4.0.tgz}
+    name: stripe
+    version: 13.4.0
+    engines: {node: '>=12.*'}
+    dependencies:
+      '@types/node': registry.npmmirror.com/@types/node@20.4.10
+      qs: registry.npmmirror.com/qs@6.11.2
     dev: false
 
   registry.npmmirror.com/styled-jsx@5.1.1(react@18.2.0):
