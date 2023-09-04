@@ -19,7 +19,6 @@ export const Modal: React.FC<ModalProps> = ({
 }) => {
     const onChange = (open: boolean) => {
         if (!open) {
-            console.log('onclose called')
             onClose();
         }
     };
