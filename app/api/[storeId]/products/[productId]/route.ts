@@ -22,7 +22,7 @@ export async function GET(
         color: true,
       },
     });
-
+    console.log("API", product)
     return NextResponse.json(product);
   } catch (error) {
     console.log("[PRODUCT_GET]", error);
