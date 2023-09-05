@@ -6,7 +6,7 @@ import prismadb from "@/lib/prismadb";
 // for development, prevent CORS error happen
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Methods": "GET, POST, DELETE, OPTIONS",
+  "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type, Authorization",
 };
 
@@ -81,8 +81,6 @@ export async function POST(
 
   // create session
   console.log('going to create session')
-  console.log("lin1", line_items[0].price_data)
-  console.log("lin2", line_items[1].price_data)
   const session = await stripe.checkout.sessions.create({
     line_items,
     mode: "payment",
