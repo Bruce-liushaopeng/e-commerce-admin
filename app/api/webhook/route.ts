@@ -42,8 +42,6 @@ export async function POST(req: Request) {
 
     const addressString = addressComponents.filter((c) => c!== null).join(', ');
 
-    // check the event we want to listen to 
-console.log('be fore checkout session complete')
     if (event.type === 'checkout.session.completed') {
         const order = await prismadb.order.update({
             where: {
