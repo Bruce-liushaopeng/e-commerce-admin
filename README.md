@@ -5,6 +5,13 @@
  2. Graphic report shows the revenue and product sales
  3. Integrating Stripe for real-time banking transactions.
 
+## Tech Stack
+**Front-End**: React, Next, Shadcn
+**Back-End**: Next, Prisma, MySQL
+**Database Hosting**: PlanetScale
+**Image Hosting**: Cloudinary
+**Purchase API**: Stripe
+
 ## Admin Page Link
 [View Page](https://e-commerce-admin-five-pi.vercel.app/)
 
